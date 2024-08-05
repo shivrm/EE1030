@@ -52,124 +52,136 @@
 %fi
 
 \title{Assignment 1}
-\author{AI24BTECH11031 - Shivram S$^{*}$% <-this % stops a space
-}
+\author{AI24BTECH11031 - Shivram S}
 \maketitle
 \newpage
 \bigskip
 
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
-\section{Match The Following}
+\section*{Match The Following}
 
-\textbf{Question 1:} $z \ne 0$ is a complex number
-\hspace*{\fill} {\color{magenta}\brak{1992 - 2\ marks}}
+\begin{enumerate}[label=\arabic*)]
+	\item $z \ne 0$ is a complex number
+		\hspace*{\fill} {\color{magenta}\brak{1992 - 2\ marks}}
 
-\begin{tabular}{ c c c c }
-		& \textbf{Column I}			&		& \textbf{Column II}		\\
-	(A) & $\RE\ z = 0$				& (p)	& $\RE\ z^2  = 0$			\\
-	(B) & $\mathrm{Arg}\ z = \frac\pi4$		& (q)	& $\IM\ z^2  = 0$	\\
-		&							& (r)	& $\RE\ z^2  = \IM\ z^2$
-\end{tabular}
+		\begin{tabular}{ c c c c }
+			& \textbf{Column I}						&		& \textbf{Column II}		\\
+			(A) & $\RE\ z = 0$						& (p)	& $\RE\ z^2  = 0$			\\
+			(B) & $\mathrm{Arg}\ z = \frac\pi4$		& (q)	& $\IM\ z^2  = 0$	\\
+			&										& (r)	& $\RE\ z^2  = \IM\ z^2$
+		\end{tabular}
 
-\textbf{Question 2:} Match the statements in \textbf{Column I} with those in \textbf{Column II}
-\hspace*{\fill} {\color{magenta}\brak{2010}} \\
-\textbf{[Note:} here $z$ takes values in the complex plane and $\IM\ z$ and $\RE\ z$
-denote, respectively, the imaginary part and the real part of $z$. \textbf{]}
+		\vspace{5mm}
 
-\textbf{Column I}
-\begin{enumerate}[label=(\Alph*)]
-	\item The set of points $z$ satisfying $|z - i|z||$ = $|z + i|z||$ is contained in or equal to
-	\item The set of points $z$ satisfying $|z + 4| + |z - 4| = 10$ is contained in or equal to
-	\item If $|w| = 2$, then the set of points $z = w - \frac 1 w$ is contained in or equal to
-	\item If $|w| = 1$, then the set of points $z = w - \frac 1 w$ is contained in or equal to
+	\item Match the statements in \textbf{Column I} with those in \textbf{Column II}
+		\hspace*{\fill} {\color{magenta}\brak{2010}} \\
+		\textbf{[Note:} here $z$ is a set of points taking values in the complex plane and $\IM\ z$ and $\RE\ z$
+		denote, respectively, the imaginary part and the real part of $z$. \textbf{]}
+
+		\vspace{5mm}
+
+		\textbf{Column I}
+		\begin{enumerate}[label=(\Alph*)]
+			\item The set of points $z$ satisfying $|z - i|z||$ = $|z + i|z||$ is in or equals
+			\item The set of points $z$ satisfying $|z + 4| + |z - 4| = 10$ is in or equals
+			\item If $|w| = 2$, then the set of points $z = w - \frac 1 w$ is in or equals
+			\item If $|w| = 1$, then the set of points $z = w - \frac 1 w$ is in or equals
+		\end{enumerate}
+
+		\textbf{Column II}
+		\begin{enumerate}[label=(\alph*)]
+				\setcounter{enumii}{15}
+			\item an ellipse with eccentricity $\frac 4 5$
+			\item the set of points $z$ satisfying $\IM\ z = 0$
+			\item the set of points $z$ satisfying $|\IM\ z| \le 1$
+			\item the set of points $z$ satisfying $|\RE\ z| < 2$
+			\item the set of points $z$ satisfying $|z| \le 3$
+		\end{enumerate}
+
+		\vspace{5mm}
+
+	\item Let $z_k = \cos\brak{\frac {2k\pi} {10}} + i\sin\brak{\frac {2k\pi} {10}}$; $k = 1,2,\dots,9$.
+		\hspace*{\fill} {\color{magenta}\brak{JEE\ Adv.\ 2014}} \\
+
+		\textbf{List I}
+		\begin{enumerate}[label=\Alph*.]
+				\setcounter{enumii}{15}
+			\item For each $z_k$ there exists a $z_j$ such that $z_k \cdot z_j = 1$
+			\item There exists a $k \in \{1,2,\dots, 9\}$ such that $z_1 \cdot z = z_k$ has no 
+				solution in the set of complex numbers
+			\item $\frac {|1 - z_1||1 - z_2|\dots|1-z_9|} {10}$ equals
+			\item $1 - \sum\limits_{k=1}^9 \cos \brak{\frac {2k\pi} {10}}$ equals
+		\end{enumerate}
+
+		\textbf{List II}
+		\begin{enumerate}[label=\arabic*.]
+			\item True
+			\item False
+			\item 1
+			\item 2
+		\end{enumerate}
+
+		\begin{tabular}{c c c c c c c c c c}
+			& \textbf P & \textbf Q & \textbf R & \textbf S & & \textbf P & \textbf Q & \textbf R & \textbf S \\
+			(a) & 1 & 2 & 4 & 3 & (b) & 2 & 1 & 3 & 4 \\
+			(c) & 1 & 2 & 3 & 4 & (d) & 2 & 1 & 4 & 3 \\
+		\end{tabular}
 \end{enumerate}
 
-\begin{flushright}
-\textbf{Column II}
-
-\begin{enumerate}[label=(\alph*)]
-\setcounter{enumi}{15}
-\item an ellipse with eccentricity $\frac 4 5$
-\item the set of points $z$ satisfying $\IM\ z = 0$
-\item the set of points $z$ satisfying $|\IM\ z| \le 1$
-\item the set of points $z$ satisfying $|\RE\ z| < 2$
-\item the set of points $z$ satisfying $|z| \le 3$
-\end{enumerate}
-\end{flushright}
-
-\textbf{Question 3:} Let $z_k = \cos\brak{\frac {2k\pi} {10}} + i\sin\brak{\frac {2k\pi} {10}}$; $k = 1,2,\dots,9$.
-\hspace*{\fill} {\color{magenta}\brak{JEE\ Adv.\ 2014}} \\
-
-\textbf{List I} \\
-\textbf P. For each $z_k$ there exists a $z_j$ such that $z_k \cdot z_j = 1$ \\
-\textbf Q. There exists a $k \in \{1,2,\dots, 9\}$ such that $z_1 \cdot z = z_k$ has no 
-solution in the set of complex numbers \\
-\textbf R. $\frac {|1 - z_1||1 - z_2|\dots|1-z_9|} {10}$ equals \\
-\textbf S. $1 - \sum\limits_{k=1}^9 \cos \brak{\frac {2k\pi} {10}}$ equals \\
-
-\begin{flushright}
-\textbf{List II} \\
-\textbf 1. True \\
-\textbf 2. False \\
-\textbf 3. 1 \\
-\textbf 4. 2 \\
-\end{flushright}
-
-\begin{tabular}{c c c c c c c c c c}
-	& \textbf P & \textbf Q & \textbf R & \textbf S & & \textbf P & \textbf Q & \textbf R & \textbf S \\
-	(a) & 1 & 2 & 4 & 3 & (b) & 2 & 1 & 3 & 4 \\
-	(c( & 1 & 2 & 3 & 4 & (d) & 2 & 1 & 4 & 3 \\
-\end{tabular}
-
-\section{Comprehension Based Questions}
-
-\subsection{Passage-2}
+\section*{Comprehension Based Questions}
+\subsection*{Passage-2}
 
 Let $S = S_1 \cap S_2 \cap S_3$ where
 \begin{gather*}
-S_1 = \{z \in \mathbb C: |z| < 4 \} \\
+	S_1 = \{z \in \mathbb C: |z| < 4 \} \\
 	S_2 = \left\{z \in \mathbb C: \IM\left[ \frac {z - 1 + \sqrt 3 i} {1 - \sqrt 3 i} \right] > 0 \right\} \\
 	\text{and} \ S_3 = \{z \in \mathbb C: \RE\ z > 0\}
 \end{gather*}
 
-\textbf{Question 4:} Area of S = 
-\hspace*{\fill} {\color{magenta}\brak{JEE\ Adv.\ 2013}} \\
+\begin{enumerate}[label=\arabic*)]
+		\setcounter{enumi}{3}
+	\item Area of S = 
+		\hspace*{\fill} {\color{magenta}\brak{JEE\ Adv.\ 2013}} \\
 
-\begin{tabular}{ c c c c }
-	(a) $\frac {10\pi} 3$ & (b) $\frac {20\pi} 3$ & (c) $\frac {16\pi} 3$ & (d) $\frac {32\pi} 3$
-\end{tabular}
+		\begin{tabular}{ c c c c }
+			(a) $\frac {10\pi} 3$ & (b) $\frac {20\pi} 3$ & (c) $\frac {16\pi} 3$ & (d) $\frac {32\pi} 3$
+		\end{tabular}
 
-\textbf{Question 5:} $\min\limits_{z \in S} |1 - 3i - z| = $
-\hspace*{\fill} {\color{magenta}\brak{JEE\ Adv.\ 2013}} \\
+		\vspace{5mm}
 
-\begin{tabular}{ c c }
-	(a) $\frac {2 - \sqrt 3} 2$ & (b) $\frac {2 + \sqrt 3} 2$ \\
-	(b) $\frac {3 -\sqrt 3} 2$ & (d) $\frac {3 + \sqrt 3} 2$
-\end{tabular}
+	\item $\min\limits_{z \in S} |1 - 3i - z| = $
+		\hspace*{\fill} {\color{magenta}\brak{JEE\ Adv.\ 2013}} \\
 
-\section{Integer Value Correct Type}
+		\begin{tabular}{ c c }
+			(a) $\frac {2 - \sqrt 3} 2$ & (b) $\frac {2 + \sqrt 3} 2$ \\
+			(b) $\frac {3 -\sqrt 3} 2$ & (d) $\frac {3 + \sqrt 3} 2$
+		\end{tabular}
+\end{enumerate}
 
-\textbf{Question 1:} If $z$ is any complex number satisfying $|z - 3 - 2i| < 2$, then the
-minimum value of $|2z - 6 + 5i|$ is
-\hspace*{\fill} {\color{magenta}\brak{2011}} \\
+\section*{Integer Value Correct Type}
 
-\textbf{Question 2:} Let $\omega = e^{\frac{i\pi}3}$, and $a, b, c, x, y, z$ be non-zero complex numbers such that:
-\hspace*{\fill} {\color{magenta}\brak{2011}} \\
-\begin{gather*}
-	a + b + c = x \\
-	a + b\omega + c\omega^2 = y \\
-	a + b\omega^2 + c\omega = z 
-\end{gather*}
-Then the value of $\frac {|x|^2 + |y|^2 + |z|^2} {|a|^2 + |b|^2 + |c|^2}$ is
+\begin{enumerate}[label=\arabic*)]
+	\item If $z$ is any complex number satisfying $|z - 3 - 2i| < 2$, then the
+		minimum value of $|2z - 6 + 5i|$ is
+		\hspace*{\fill} {\color{magenta}\brak{2011}} \\
 
-\textbf{Question 3:} For any integer $k$, let $a_k = \cos(\frac{k\pi}7) + i\sin(\frac{k\pi}7)$, where
-$i = \sqrt{-1}$. The value of the expression $\frac {\sum_{k=1}^{12} |a_{k+1} - a_k|} {\sum_{k=1}^{3} |a_{4k-1} - a_{4k-2}}$ is
-\hspace*{\fill} {\color{magenta}\brak{JEE\ Adv.\ 2015}} \\
+	\item Let $\omega = e^{\frac{i\pi}3}$, and $a, b, c, x, y, z$ be non-zero complex numbers such that:
+		\hspace*{\fill} {\color{magenta}\brak{2011}} \\
+		\begin{gather*}
+			a + b + c = x \\
+			a + b\omega + c\omega^2 = y \\
+			a + b\omega^2 + c\omega = z 
+		\end{gather*}
 
+		Then the value of $\frac {|x|^2 + |y|^2 + |z|^2} {|a|^2 + |b|^2 + |c|^2}$ is
 
-\textbf{Question 4:} Let $\omega \ne 1$ be a cube root of unity. Then the minimum of the set $\left\{|a + b\omega + c\omega^2|^2: a,b,c \text{ distinct non-zero integers} \right\}$ equals \rule{1cm}{0.15mm}.
-\hspace*{\fill} {\color{magenta}\brak{JEE\ Adv.\ 2019}} \\
+	\item For any integer $k$, let $a_k = \cos(\frac{k\pi}7) + i\sin(\frac{k\pi}7)$, where
+		$i = \sqrt{-1}$. The value of the expression $\frac {\sum_{k=1}^{12} |a_{k+1} - a_k|} {\sum_{k=1}^{3} |a_{4k-1} - a_{4k-2}}$ is
+		\hspace*{\fill} {\color{magenta}\brak{JEE\ Adv.\ 2015}} \\
 
-
+	\item Let $\omega \ne 1$ be a cube root of unity. Then the minimum of the set $\left\{|a + b\omega + c\omega^2|^2: a,b,c 
+		\text{ distinct non-zero integers} \right\}$ equals \rule{1cm}{0.15mm}.
+		\hspace*{\fill} {\color{magenta}\brak{JEE\ Adv.\ 2019}} \\
+\end{enumerate}
 \end{document}

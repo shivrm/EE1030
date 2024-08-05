@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.6.11)  4 AUG 2024 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.6.11)  5 AUG 2024 09:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1240,107 +1240,68 @@ Package hyperref Info: Link coloring OFF on input line 48.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 58.
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
-8.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
-8.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
-8.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
-8.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
-8.
+LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 1354) in paragraph at lines 65--67
-[]\OT1/txr/bx/n/12 Question 1: $\OML/txmi/m/it/12 z \U/txsyc/m/n/12 , \OT1/txr/
-m/n/12 0$ is a com-plex num-ber
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--110
+Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--138
+Underfull \hbox (badness 10000) in paragraph at lines 153--155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--145
+Underfull \hbox (badness 5274) in paragraph at lines 165--168
+[]\OT1/txr/m/n/12 If $\OML/txmi/m/it/12 z$ \OT1/txr/m/n/12 is any com-plex num-
+ber sat-is-fy-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--168
 
  []
 
 
-Underfull \hbox (badness 2689) in paragraph at lines 153--156
-[]\OT1/txr/bx/n/12 Question 1: \OT1/txr/m/n/12 If $\OML/txmi/m/it/12 z$ \OT1/tx
-r/m/n/12 is any com-plex num-ber
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--156
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--159
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--169
-[]\OT1/txr/bx/n/12 Question 3: \OT1/txr/m/n/12 For any in-te-ger $\OML/txmi/m/i
-t/12 k$\OT1/txr/m/n/12 , let
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--169
-
- []
-
-
-Underfull \hbox (badness 1776) in paragraph at lines 171--173
-[]\OT1/txr/bx/n/12 Question 4: \OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 ! \U/txsy
-c/m/n/12 , \OT1/txr/m/n/12 1$ be a cube root
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
-\OT1/txr/m/n/12 of unity. Then the min-i-mum of the set
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
-[]$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--173
+Underfull \hbox (badness 10000) in paragraph at lines 179--182
 
  []
 
@@ -1348,20 +1309,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--173
 dist/fonts/enc/dvips/base/8r.enc}
 
 
-] [2
+]
+Underfull \hbox (badness 10000) in paragraph at lines 183--186
+[]\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 ! \U/txsyc/m/n/12 , \OT1/txr/m/n/12 1$
+ be a cube root of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--186
+\OT1/txr/m/n/12 unity. Then the min-i-mum of the set
+ []
+
+
+Overfull \hbox (19.62917pt too wide) in paragraph at lines 183--186
+[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--186
+
+ []
+
+[2
 
 ] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C31BD616957474B2C7A993098156C3CC;622.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30384 strings out of 476034
- 598172 string characters out of 5792854
- 1894388 words of memory out of 6000000
- 50163 multiletter control sequences out of 15000+600000
- 583276 words of font info for 183 fonts, out of 8000000 for 9000
+ 30362 strings out of 476034
+ 597728 string characters out of 5792854
+ 1896388 words of memory out of 6000000
+ 50124 multiletter control sequences out of 15000+600000
+ 573520 words of font info for 152 fonts, out of 8000000 for 9000
  1140 hyphenation exceptions out of 8191
- 101i,14n,96p,1172b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,14n,96p,1172b,583s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/f
@@ -1371,10 +1353,10 @@ s/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 67211 bytes).
+Output written on main.pdf (2 pages, 65898 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 16 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 82 compressed objects within 1 object stream
+ 33 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
