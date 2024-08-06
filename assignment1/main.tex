@@ -59,7 +59,7 @@
 
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
-\section*{Match The Following}
+\section{Match The Following}
 
 \begin{enumerate}[label=\arabic*)]
 	\item $z \ne 0$ is a complex number
@@ -69,7 +69,7 @@
 			\textbf{Column I}
 			\begin{enumerate}[label=(\Alph*)]
 				\item $\RE\ z = 0$
-				\item $\mathrm{Arg}\ z = \frac\pi4$
+				\item $\mathrm{Arg}\ z = \frac{\pi}{4}$
 			\end{enumerate}
 			\columnbreak
 			\textbf{Column II}
@@ -88,32 +88,32 @@
 
 		\textbf{Column I}
 		\begin{enumerate}[label=(\Alph*)]
-			\item The set of points $z$ satisfying $|z - i|z||$ = $|z + i|z||$ is in or equals
-			\item The set of points $z$ satisfying $|z + 4| + |z - 4| = 10$ is in or equals
-			\item If $|w| = 2$, then the set of points $z = w - \frac 1 w$ is in or equals
-			\item If $|w| = 1$, then the set of points $z = w - \frac 1 w$ is in or equals
+			\item The set of points $z$ satisfying $\abs{z - i\abs{z}}$ = $\abs{z + i\abs{z}}$ is in or equals
+			\item The set of points $z$ satisfying $\abs{z + 4} + \abs{z - 4} = 10$ is in or equals
+			\item If $\abs{w} = 2$, then the set of points $z = w - \frac{1}{w}$ is in or equals
+			\item If $\abs{w} = 1$, then the set of points $z = w - \frac{1}{w}$ is in or equals
 		\end{enumerate}
 
 		\textbf{Column II}
 		\begin{enumerate}[label=(\alph*)]
 				\setcounter{enumii}{15}
-			\item an ellipse with eccentricity $\frac 4 5$
+			\item an ellipse with eccentricity $\frac{4}{5}$
 			\item the set of points $z$ satisfying $\IM\ z = 0$
-			\item the set of points $z$ satisfying $|\IM\ z| \le 1$
-			\item the set of points $z$ satisfying $|\RE\ z| < 2$
-			\item the set of points $z$ satisfying $|z| \le 3$
+			\item the set of points $z$ satisfying $\abs{\IM\ z} \le 1$
+			\item the set of points $z$ satisfying $\abs{\RE\ z} < 2$
+			\item the set of points $z$ satisfying $\abs{z} \le 3$
 		\end{enumerate}
 
-	\item Let $z_k = \cos\brak{\frac {2k\pi} {10}} + i\sin\brak{\frac {2k\pi} {10}}$; $k = 1,2,\dots,9$.
+	\item Let $z_k = \cos\brak{\frac{2k\pi}{10}} + i\sin\brak{\frac{2k\pi}{10}}$; $k = 1,2,\dots,9$.
 		\hfill \brak{JEE\ Adv.\ 2014}
 
 		\textbf{List I}
 		\begin{enumerate}[label=\Alph*.]
 				\setcounter{enumii}{15}
 			\item For each $z_k$ there exists a $z_j$ such that $z_k \cdot z_j = 1$
-			\item There exists a $k \in \{1,2,\dots, 9\}$ such that $z_1 \cdot z = z_k$ has no 
+			\item There exists a $k \in \cbrak{1,2,\dots, 9}$ such that $z_1 \cdot z = z_k$ has no 
 				solution in the set of complex numbers
-			\item $\frac {|1 - z_1||1 - z_2|\dots|1-z_9|} {10}$ equals
+			\item $\frac {\abs{1 - z_1}\abs{1 - z_2}\dots\abs{1-z_9}} {10}$ equals
 			\item $1 - \sum\limits_{k=1}^9 \cos \brak{\frac {2k\pi} {10}}$ equals
 		\end{enumerate}
 
@@ -125,29 +125,20 @@
 			\item 2
 		\end{enumerate}
 
-		\begin{multicols}{2}
-			\begin{multicols}{4}
-				P \\
-				Q \\
-				R \\
-				S \\
-			\end{multicols}{4}
-		\end{multicols}{2}			
-
 		\begin{tabular}{c c c c c c c c c c}
-			& \textbf P & \textbf Q & \textbf R & \textbf S & & \textbf P & \textbf Q & \textbf R & \textbf S \\
-			(a) & 1 & 2 & 4 & 3 & (b) & 2 & 1 & 3 & 4 \\
-			(c) & 1 & 2 & 3 & 4 & (d) & 2 & 1 & 4 & 3 \\
+			& \textbf{P} & \textbf{Q} & \textbf{R} & \textbf{S} & & \textbf{P} & \textbf{Q} & \textbf{R} & \textbf{S} \\
+			\brak{a} & 1 & 2 & 4 & 3 & \brak{b} & 2 & 1 & 3 & 4 \\
+			\brak{c} & 1 & 2 & 3 & 4 & \brak{d} & 2 & 1 & 4 & 3 \\
 		\end{tabular}
 \end{enumerate}
 
-\section*{Comprehension Based Questions}
-\subsection*{Passage-2}
+\section{Comprehension Based Questions}
+\subsection{Passage-2}
 
 Let $S = S_1 \cap S_2 \cap S_3$ where
 \begin{gather*}
-	S_1 = \{z \in \mathbb C: |z| < 4 \} \\
-	S_2 = \left\{z \in \mathbb C: \IM\left[ \frac {z - 1 + \sqrt 3 i} {1 - \sqrt 3 i} \right] > 0 \right\} \\
+	S_1 = \cbrak{z \in \mathbb C: \abs{z} < 4 } \\
+	S_2 = \cbrak{z \in \mathbb C: \IM \sbrak{ \frac {z - 1 + \sqrt 3 i} {1 - \sqrt 3 i} } > 0 } \\
 	\text{and} \ S_3 = \{z \in \mathbb C: \RE\ z > 0\}
 \end{gather*}
 
@@ -158,31 +149,31 @@ Let $S = S_1 \cap S_2 \cap S_3$ where
 
 		\begin{multicols}{4}
 			\begin{enumerate}[label=(\alph*)]
-				\item $\frac {10\pi} 3$ 
-				\item $\frac {20\pi} 3$
-				\item $\frac {16\pi} 3$
-				\item $\frac {32\pi} 3$
+				\item $\frac {10\pi} {3}$ 
+				\item $\frac {20\pi} {3}$
+				\item $\frac {16\pi} {3}$
+				\item $\frac {32\pi} {3}$
 			\end{enumerate}
 		\end{multicols}
 
-	\item $\min\limits_{z \in S} |1 - 3i - z| = $
+	\item $\min\limits_{z \in S} \abs{1 - 3i - z} = $
 		\hfill \brak{JEE\ Adv.\ 2013}
 
 		\begin{multicols}{2}
 			\begin{enumerate}[label=(\alph*)]
-				\item $\frac {2 - \sqrt 3} 2$
-				\item $\frac {2 + \sqrt 3} 2$
-				\item $\frac {3 -\sqrt 3} 2$
-				\item $\frac {3 + \sqrt 3} 2$
+				\item $\frac {2 - \sqrt{3}} {2}$
+				\item $\frac {2 + \sqrt{3}} {2}$
+				\item $\frac {3 -\sqrt{3}} {2}$
+				\item $\frac {3 + \sqrt{3}} {2}$
 			\end{enumerate}
 		\end{multicols}
 \end{enumerate}
 
-\section*{Integer Value Correct Type}
+\section{Integer Value Correct Type}
 
 \begin{enumerate}[label=\arabic*)]
-	\item If $z$ is any complex number satisfying $|z - 3 - 2i| < 2$, then the
-		minimum value of $|2z - 6 + 5i|$ is
+	\item If $z$ is any complex number satisfying $\abs{z - 3 - 2i} < 2$, then the
+		minimum value of $\abs{2z - 6 + 5i}$ is
 		\hfill \brak{2011}
 
 	\item Let $\omega = e^{\frac{i\pi}3}$, and $a, b, c, x, y, z$ be non-zero complex numbers such that:
@@ -193,14 +184,14 @@ Let $S = S_1 \cap S_2 \cap S_3$ where
 			a + b\omega^2 + c\omega = z 
 		\end{gather*}
 
-		Then the value of $\frac {|x|^2 + |y|^2 + |z|^2} {|a|^2 + |b|^2 + |c|^2}$ is
+		Then the value of $\frac {\abs{x}^2 + \abs{y}^2 + \abs{z}^2} {\abs{a}^2 + \abs{b}^2 + \abs{c}^2}$ is
 
-	\item For any integer $k$, let $a_k = \cos(\frac{k\pi}7) + i\sin(\frac{k\pi}7)$, where
-		$i = \sqrt{-1}$. The value of the expression $\frac {\sum_{k=1}^{12} |a_{k+1} - a_k|} {\sum_{k=1}^{3} |a_{4k-1} - a_{4k-2}}$ is
+	\item For any integer $k$, let $a_k = \cos\brak{\frac{k\pi}{7}} + i\sin\brak{\frac{k\pi}{7}}$, where	
+		$i = \sqrt{-1}$. The value of the expression $\frac {\sum_{k=1}^{12} \abs{a_{k+1} - a_k}} {\sum_{k=1}^{3} \abs{a_{4k-1} - a_{4k-2}}}$ is
 		\hfill \brak{JEE\ Adv.\ 2015}
 
-	\item Let $\omega \ne 1$ be a cube root of unity. Then the minimum of the set $\left\{|a + b\omega + c\omega^2|^2: a,b,c 
-		\text{ distinct non-zero integers} \right\}$ equals \rule{1cm}{0.15mm}.
+	\item Let $\omega \ne 1$ be a cube root of unity. Then the minimum of the set $\cbrak{\abs{a + b\omega + c\omega^2}^2: a,b,c 
+		\text{ distinct non-zero integers}}$ equals \rule{1cm}{0.15mm}.
 		\hfill \brak{JEE\ Adv.\ 2019}
 \end{enumerate}
 \end{document}
