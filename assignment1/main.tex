@@ -42,9 +42,6 @@
 \theoremstyle{remark}
 \newtheorem{rem}{Remark}
 
-\newcommand{\RE}{\mathrm{Re}}
-\newcommand{\IM}{\mathrm{Im}}
-
 \usepackage{multicol}
 \begin{document}
 
@@ -68,22 +65,23 @@
 		\begin{multicols}{2}
 			\textbf{Column I}
 			\begin{enumerate}[label=(\Alph*)]
-				\item $\RE\ z = 0$
+				\item $\mathrm{Re}\ z = 0$
 				\item $\mathrm{Arg}\ z = \frac{\pi}{4}$
 			\end{enumerate}
 			\columnbreak
 			\textbf{Column II}
 			\begin{enumerate}[label=(\alph*)]
 					\setcounter{enumii}{15}
-				\item $\RE\ z^2 = 0$
-				\item $\IM\ z^2 = 0$
-				\item $\RE\ z^2 = \IM\ z^2$
+				\item $\mathrm{Re}\ z^2 = 0$
+				\item $\mathrm{Im}\ z^2 = 0$
+				\item $\mathrm{Re}\ z^2 = \mathrm{Im}\ z^2$
 			\end{enumerate}
 		\end{multicols}
 
 	\item Match the statements in \textbf{Column I} with those in \textbf{Column II}
 		\hfill \brak{2010} \\
-		\textbf{[Note:} here $z$ is a set of points taking values in the complex plane and $\IM\ z$ and $\RE\ z$
+		\textbf{[Note:} here $z$ is a set of points taking values in the
+		complex plane and $\mathrm{Im}\ z$ and $\mathrm{Re}\ z$
 		denote, respectively, the imaginary part and the real part of $z$. \textbf{]}
 
 		\textbf{Column I}
@@ -98,9 +96,9 @@
 		\begin{enumerate}[label=(\alph*)]
 				\setcounter{enumii}{15}
 			\item an ellipse with eccentricity $\frac{4}{5}$
-			\item the set of points $z$ satisfying $\IM\ z = 0$
-			\item the set of points $z$ satisfying $\abs{\IM\ z} \le 1$
-			\item the set of points $z$ satisfying $\abs{\RE\ z} < 2$
+			\item the set of points $z$ satisfying $\mathrm{Im}\ z = 0$
+			\item the set of points $z$ satisfying $\abs{\mathrm{Im}\ z} \le 1$
+			\item the set of points $z$ satisfying $\abs{\mathrm{Re}\ z} < 2$
 			\item the set of points $z$ satisfying $\abs{z} \le 3$
 		\end{enumerate}
 
@@ -138,8 +136,8 @@
 Let $S = S_1 \cap S_2 \cap S_3$ where
 \begin{gather*}
 	S_1 = \cbrak{z \in \mathbb C: \abs{z} < 4 } \\
-	S_2 = \cbrak{z \in \mathbb C: \IM \sbrak{ \frac {z - 1 + \sqrt 3 i} {1 - \sqrt 3 i} } > 0 } \\
-	\text{and} \ S_3 = \{z \in \mathbb C: \RE\ z > 0\}
+	S_2 = \cbrak{z \in \mathbb C: \mathrm{Im} \sbrak{ \frac {z - 1 + \sqrt 3 i} {1 - \sqrt 3 i} } > 0 } \\
+	\text{and} \ S_3 = \{z \in \mathbb C: \mathrm{Re}\ z > 0\}
 \end{gather*}
 
 \begin{enumerate}[label=\arabic*)]
@@ -203,7 +201,7 @@ Let $S = S_1 \cap S_2 \cap S_3$ where
 			\lambda + 1 & -2\lambda & \lambda - 4 \\
 			\lambda - 3 & \lambda+ 4 & 3\lambda
 		}$ be an identity in $\lambda$ where $p, q, r, s$ and $t$ are constants.
-		Then the value of t is \rule{1cm}{0.15mm}.
+		Then the value of $t$ is \rule{1cm}{0.15mm}.
 		\hfill \brak{1981 - 2\ Marks}
 	
 	\item The solution set of the equation $\mydet{
@@ -223,7 +221,7 @@ Let $S = S_1 \cap S_2 \cap S_3$ where
 			2 & x & 2 \\
 			7 & 6 & x
 		}$ the other two roots are \rule{1cm}{0.15mm} and \rule{1cm}{0.15mm}.
-		\hfill \brak{1984 - 2\ Marks}
+		\hfill \brak{1983 - 2\ Marks}
 
 	\item The system of equations
 		\begin{gather*}
@@ -246,7 +244,7 @@ Let $S = S_1 \cap S_2 \cap S_3$ where
 		$\mydet{
 			1 & \log_x{y} & \log_x{z} \\
 			\log_y{x} & 1 & \log_y{z} \\
-			\log_z{y} & \log_z{y} & 1 \\
+			\log_z{x} & \log_z{y} & 1 \\
 		}$ is \rule{1cm}{0.15mm}.
 		\hfill \brak{1993 - 2\ Marks}
 \end{enumerate}
@@ -284,7 +282,7 @@ Let $S = S_1 \cap S_2 \cap S_3$ where
 
 \begin{enumerate}[label=\arabic*.]
 	\item Consider the set $A$ of all determinants of order 3 with entries
-		0 or 1 only. Let be be the subset of $A$ consisting of all
+		0 or 1 only. Let $B$ be the subset of $A$ consisting of all
 		determinants with value 1. Let $C$ be the subset of $A$ consisting
 		of all determinants with value -1. Then
 		\hfill \brak{1981 - 2\ Marks}
@@ -331,8 +329,51 @@ Let $S = S_1 \cap S_2 \cap S_3$ where
 			\end{enumerate}
 		\end{multicols}
 
+	\item If $A$ and $B$ are square matrices of equal degree, then which
+		one is correct among the followings?
+		\hfill \brak{1995S}
 
+		\begin{multicols}{2}
+			\begin{enumerate}[label=(\alph*)]
+				\item $A + B = B + A$
+				\item $A + B = A - B$
+				\columnbreak
+				\item $A - B = B - A$
+				\item $AB = BA$
+			\end{enumerate}
+		\end{multicols}
 
+	\item The parameter on which the value of the determinant $\mydet{
+			1 & a & a^2 \\
+			\cos\brak{p-d}x & \cos px & \cos\brak{p + d}x \\
+			\sin\brak{p-d}x & \sin px & \sin\brak{p + d}x	
+		}$ does not depend upon is
+		\hfill \brak{1997 - 2\ Marks}
+
+		\begin{multicols}{4}
+			\begin{enumerate}[label=(\alph*)]
+				\item $a$
+				\item $p$
+				\item $d$
+				\item $x$
+			\end{enumerate}
+		\end{multicols}
+
+	\item If $f(x) = \mydet{
+			1 & x & x + 1 \\
+			2x & x(x - 1) & (x + 1)x \\
+			3x(x - 1) & x(x - 1)(x - 2) & (x + 1)x(x - 1)
+		}$ then $f(100)$ is equal to
+		\hfill \brak{1999 - 2\ Marks}
+
+		\begin{multicols}{4}
+			\begin{enumerate}[label=(\alph*)]
+				\item 0
+				\item 1
+				\item 100
+				\item -100
+			\end{enumerate}
+		\end{multicols}
 
 \end{enumerate}
 
