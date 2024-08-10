@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.6.11)  8 AUG 2024 12:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 39) (preloaded format=pdflatex 2024.6.11)  10 AUG 2024 12:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1369,38 +1369,20 @@ Overfull \hbox (22.84517pt too wide) in paragraph at lines 191--194
 dist/fonts/enc/dvips/base/8r.enc}
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 198--206
-[]\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 p^^U[] \OT1/txr/m/n/12 + \OML/txmi/m/i
-t/12 q^^U[] \OT1/txr/m/n/12 + \OML/txmi/m/it/12 r^^U[] \OT1/txr/m/n/12 + \OML/t
-xmi/m/it/12 s^^U \OT1/txr/m/n/12 + \OML/txmi/m/it/12 t \OT1/txr/m/n/12 =
- []
-
-
-Underfull \hbox (badness 7308) in paragraph at lines 198--206
-[]$ \OT1/txr/m/n/12 be an iden-tity in
- []
-
-
-Overfull \hbox (31.96068pt too wide) in paragraph at lines 362--368
-[]\OT1/txr/m/n/12 If $\OML/txmi/m/it/12 f\OT1/txr/m/n/12 (\OML/txmi/m/it/12 x\O
-T1/txr/m/n/12 ) = []$
- []
-
-[2] [3
+] [2
 
 ] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2E2F8C5EC318E421C2960C19702DB830;1073.
+(rerunfilecheck)             Checksum: C31BD616957474B2C7A993098156C3CC;622.
  ) 
 Here is how much of TeX's memory you used:
- 30562 strings out of 476034
- 600543 string characters out of 5792854
+ 30516 strings out of 476034
+ 600204 string characters out of 5792854
  1903388 words of memory out of 6000000
- 50265 multiletter control sequences out of 15000+600000
+ 50262 multiletter control sequences out of 15000+600000
  573520 words of font info for 152 fonts, out of 8000000 for 9000
  1140 hyphenation exceptions out of 8191
- 101i,14n,96p,1172b,601s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,14n,96p,1172b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/f
@@ -1410,10 +1392,10 @@ s/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 76206 bytes).
+Output written on main.pdf (2 pages, 66846 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 89 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 138 PDF objects out of 1000 (max. 8388607)
+ 112 compressed objects within 2 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 
