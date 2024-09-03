@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from ctypes import *
 
 def line_gen(A,B):
   len =10
@@ -11,12 +12,19 @@ def line_gen(A,B):
     x_AB[:,i]= temp1.T
   return x_AB
 
+lib = CDLL('./section.so')
+section = lib.section
+section.argtypes = (c_float, c_float, c_float)
+section.restype = c_float
+section = np.vectorize(section)
+
 fig = plt.figure(figsize=(8, 6))
 ax = fig.add_subplot(111, projection='3d')
 
 P = np.array([1, 2, -1]).reshape(-1, 1)
 Q = np.array([-1, 1, 1]).reshape(-1, 1)
-R = (Q + (1/2)*P) / (1 + (1/2))
+k = 1/2
+R = section(P, Q, k)
 
 # Plot PQ
 x_PQ = line_gen(P, Q)
