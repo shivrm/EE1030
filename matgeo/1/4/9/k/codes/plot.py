@@ -12,19 +12,52 @@ def line_gen(A,B):
     x_AB[:,i]= temp1.T
   return x_AB
 
-lib = CDLL('./section.so')
-section = lib.section
-section.argtypes = (c_float, c_float, c_float)
-section.restype = c_float
-section = np.vectorize(section)
-
 fig = plt.figure(figsize=(8, 6))
 ax = fig.add_subplot(111, projection='3d')
 
+####################################################
+# First plot
+
 P = np.array([1, 2, -1]).reshape(-1, 1)
 Q = np.array([-1, 1, 1]).reshape(-1, 1)
-k = -1/2
-R = section(P, Q, k)
+R = np.loadtxt("output.dat", max_rows=3).reshape(-1, 1)
+
+# Plot PQ
+x_PQ = line_gen(P, Q)
+ax.plot(x_PQ[0,:], x_PQ[1,:], x_PQ[2,:], label="PQ")
+
+# Plot the points
+colors = np.arange(1, 4)
+p = np.block([P, Q, R])
+ax.scatter(p[0, :], p[1, :], p[2, :], c=colors)
+
+points = {
+    'P': P,
+    'Q': Q,
+    'R': R,
+}
+
+# Label the points
+for label, point in points.items():
+    ax.text(
+       point[0, 0], point[1, 0], point[2, 0],
+       f"{label}\n({point[0,0]:.2f}, {point[1,0]:.2f}, {point[2,0]:.2f})",
+       fontsize=12, ha="center", va="bottom"
+    )
+
+plt.grid()
+plt.savefig('../figs/fig1.pdf')
+
+
+####################################################
+# Second plot
+
+# Clear figure
+plt.clf()
+fig = plt.figure(figsize=(8, 6))
+ax = fig.add_subplot(111, projection='3d')
+
+R = np.loadtxt("output.dat", skiprows=3, max_rows=3).reshape(-1, 1)
 
 # Plot PR
 x_PR = line_gen(P, R)
