@@ -1,0 +1,86 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+
+\title{1.11.17}
+\author{AI24BTECH11031 - Shivram S
+}
+% \maketitle
+% \newpage
+% \bigskip
+{\let\newpage\relax\maketitle}
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\renewcommand{\thetable}{\theenumi}
+
+
+\textbf{Question: }\\
+Find the direction ratios of the vector $3\vec{a} + 2\vec{b}$ where
+$\vec{a} = \vec{i} + \vec{j} - 2\vec{k}$ and $\vec{b} = 2\vec{i} - 4\vec{j} + 5\vec{k}$.
+
+\textbf{Solution: } \\
+$$
+3\vec{a} + 2\vec{b} = 3\myvec{1 \\ 1 \\ -2} + 2\myvec{2 \\ -4 \\ 5} = \myvec{7 \\ -5 \\ 4}
+$$
+
+The direction ratios are then obtained as:
+$$
+\frac{3\vec{a} + 2\vec{b}}{\norm{3\vec{a} + 2\vec{b}}} = \frac{1}{3\sqrt{10}} \myvec{7 \\ -5 \\ 4}
+$$
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.7\linewidth]{figs/fig.pdf}
+\end{figure}
+
+
+\end{document}
+
+
+
