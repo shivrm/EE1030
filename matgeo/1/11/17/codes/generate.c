@@ -17,10 +17,9 @@ int main(void) {
     b[2][0] = 5;
 
     double **res = Matadd(Matscale(a, 3, 1, 3), Matscale(b, 3, 1, 2), 3, 1);
-    double **dirn = Matscale(res, 3, 1, 1 / Matnorm(res, 3));
 
     for (int i = 0; i < 3; i++) {
-        fprintf(f, "%lf\n", dirn[i][0]);
+        fprintf(f, "%lf\n", res[i][0]);
     }
 
     return 0;

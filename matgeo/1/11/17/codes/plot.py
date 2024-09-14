@@ -32,9 +32,9 @@ for label, point in points.items():
     )
 
 
-ax.set_xlim([-2, 2])
-ax.set_ylim([-2, 2])
-ax.set_zlim([-2, 2])
+ax.set_xlim([-4, 4])
+ax.set_ylim([-4, 4])
+ax.set_zlim([-4, 4])
 
 
 plt.grid()
