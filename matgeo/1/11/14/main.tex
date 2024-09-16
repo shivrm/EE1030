@@ -60,31 +60,27 @@
 
 
 \textbf{Question: }\\
-If the sum of two unit vectors is a unit vector, peove that the magnitude of their difference
+If the sum of two unit vectors is a unit vector, prove that the magnitude of their difference
 is $\sqrt 3$
 
 \textbf{Solution: } \\
 Let the two unit vectors be $\vec{a}$ and $\vec{b}$
 
-$$
-\begin{aligned}
+\begin{align}
     \norm{\vec{a} + \vec{b}}^2 &= 1 \\
     (\vec{a}+\vec{b})^\top(\vec{a}+\vec{b}) &= 1 \\
     \vec{a}^\top\vec{a} + \vec{b}^\top\vec{b} + 2\vec{a}^\top\vec{b} &= 1 \\
     \vec{a}^\top\vec{b} &= \frac{-1}{2}
-\end{aligned}
-$$
+\end{align}
 
 Hence,
 
-$$
-\begin{aligned}
+\begin{align}
     \norm{\vec{a} + \vec{b}} &= \sqrt{(\vec{a}-\vec{b})^\top(\vec{a}-\vec{b})} \\
     &= \sqrt{\vec{a}^\top\vec{a} + \vec{b}^\top\vec{b} - 2\vec{a}^\top\vec{b}} \\
     &= \sqrt{1 + 1 - 2 \cdot \frac{-1}{2}} \\
     &= \sqrt{3}
-\end{aligned}
-$$
+\end{align}
 
 \begin{figure}[h!]
     \centering

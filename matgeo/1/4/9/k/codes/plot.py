@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from ctypes import *
 
+# Generates a line from point A to point B
 def line_gen(A,B):
   len =10
   dim = A.shape[0]
@@ -18,8 +19,11 @@ ax = fig.add_subplot(111, projection='3d')
 ####################################################
 # First plot
 
+# Points P and Q
 P = np.array([1, 2, -1]).reshape(-1, 1)
 Q = np.array([-1, 1, 1]).reshape(-1, 1)
+
+# Point which divides PQ in the ratio 1/2 internally
 R = np.loadtxt("output.dat", max_rows=3).reshape(-1, 1)
 
 # Plot PQ
@@ -31,6 +35,7 @@ colors = np.arange(1, 4)
 p = np.block([P, Q, R])
 ax.scatter(p[0, :], p[1, :], p[2, :], c=colors)
 
+# Labels and their coordinates
 points = {
     'P': P,
     'Q': Q,
@@ -45,7 +50,10 @@ for label, point in points.items():
        fontsize=12, ha="center", va="bottom"
     )
 
+# Enable grid
 plt.grid()
+
+# Save the figure
 plt.savefig('../figs/fig1.pdf')
 
 
@@ -57,9 +65,10 @@ plt.clf()
 fig = plt.figure(figsize=(8, 6))
 ax = fig.add_subplot(111, projection='3d')
 
+# Point which divides PQ in the ratio 1/2 externally
 R = np.loadtxt("output.dat", skiprows=3, max_rows=3).reshape(-1, 1)
 
-# Plot PR
+# Plot PR (since Q lies in between P and R)
 x_PR = line_gen(P, R)
 ax.plot(x_PR[0,:], x_PR[1,:], x_PR[2,:], label="PR")
 
@@ -68,6 +77,7 @@ colors = np.arange(1, 4)
 p = np.block([P, Q, R])
 ax.scatter(p[0, :], p[1, :], p[2, :], c=colors)
 
+# Labels and their coordinates
 points = {
     'P': P,
     'Q': Q,
@@ -82,5 +92,8 @@ for label, point in points.items():
        fontsize=12, ha="center", va="bottom"
     )
 
+# Enable grid
 plt.grid()
+
+# Save figure
 plt.savefig('../figs/fig2.pdf')
