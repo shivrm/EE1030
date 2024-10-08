@@ -65,12 +65,40 @@ $\angle B = 45 \degree$ and $\angle C = 30 \degree$.
 
 \textbf{Solution: } \\
 
-\begin{enumerate}
-    \item Draw a line segment $BC$ of length $8cm$ using a ruler.
-    \item At point $B$ construct $\angle XBC$ of measure $45 \degree$.
-    \item At point $C$ construct $\angle YCB$ of measure $30 \degree$
-    \item Extend $BX$ and $CY$ and label their point of intersection as $A$.
-\end{enumerate} 
+Mark points $\vec{B} = \myvec{0 \\ 0}$ and $\vec{C} = \myvec{8 \\ 0}$.
+
+We know that the coordinates of $\vec{A}$ are
+
+\begin{align}
+    \vec{A} = \myvec{c\cos B \\ c\sin B} = \myvec{8 - b\cos C \\ b \sin C}
+\end{align}
+
+So,
+
+\begin{align}
+    \myvec{\cos C & \cos B \\ -\sin C & \sin B} \myvec{b \\ c} = \myvec{8 \\ 0}
+\end{align}
+
+
+By performing row reduction,
+
+\begin{align}
+    \augvec{2}{1}{
+        \frac{\sqrt{3}}{2} & \frac{1}{\sqrt{2}} & 8 \\
+        -\frac{1}{2} & \frac{1}{\sqrt{2}} & 0
+    } \longleftrightarrow
+    \augvec{2}{1}{
+        1 & 0 & \frac{16}{\sqrt{3} + 1} \\
+        0 & 1 & \frac{8\sqrt{2}}{\sqrt{3} + 1}
+    } \\
+    b = \frac{16}{\sqrt{3} + 1}, c = \frac{8\sqrt{2}}{\sqrt{3} + 1}
+\end{align}
+
+Hence,
+
+\begin{align}
+    \vec{A} = \myvec{c\cos B \\ c\sin B} = \myvec{\frac{8}{\sqrt{3} + 1} \\ \frac{8}{\sqrt{3} + 1}}
+\end{align}
 
 $\Delta ABC$ is the required triangle.
 
