@@ -1,0 +1,182 @@
+%iffalse
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+
+%\usepackage[a5paper, top=10mm, bottom=10mm, left=10mm, right=10mm]{geometry}
+
+%
+\usepackage{gvv-book}
+\usepackage{gvv}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\makeindex
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\onecolumn
+%endif
+
+\title{2009 ME 13-24}
+\author{AI24BTECH11031 - Shivram S}
+\maketitle
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\begin{enumerate}
+    \item The rotor shaft of a large electric motor supported between short bearings at both the ends
+    shows a deflection of $1.8 mm$ in the middle of the rotor. Assuming the rotor to be perfectly balanced
+    and supported at knife edges at both the ends, the likely critical speed (in rpm) of the shaft is
+
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item 350
+        \item 705
+        \item 2810
+        \item 4430
+    \end{enumerate}
+    \end{multicols}
+
+    \item A solid circular shaft of diameter $d$ is subjected to a combined bending moment $M$ and torque
+    $T$. The material property to be used for designing the shaft using the relation $\frac{16}{\pi d^3}\sqrt{M^2 + T^2}$
+    is
+
+    \begin{multicols}{2}
+    \begin{enumerate}
+        \item ultimate tensile stringth $\brak{S_u}$
+        \item tensile yield strength $\brak{S_y}$
+        \item torsional yield strength $\brak{S_{sy}}$
+        \item endurance strength $\brak{S_e}$
+    \end{enumerate}
+    \end{multicols}
+
+    \item The effective number of lattice points in the unit cell of simple cubic, body centered cubic,
+    and face centered cubic space lattices, respectively, are
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item 1, 2, 2
+        \item 1, 2, 4
+        \item 2, 3, 4
+        \item 2, 4, 4
+    \end{enumerate}
+    \end{multicols}
+
+    \item Friction at the tool-chip interface can be reduced by
+    \begin{multicols}{2}
+    \begin{enumerate}
+        \item decreasing the rake angle
+        \item increasing the depth of cut
+        \item decreasing the cutting speed
+        \item increasing the cutting speed
+    \end{enumerate}
+    \end{multicols}
+
+    \item Two streams of liquid metal which are not hot enough to fuse properly
+    result into a casting defect known as
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item cold shut
+        \item swell
+        \item sand wash
+        \item scab
+    \end{enumerate}
+    \end{multicols}
+
+    \item The expected time ($t_e$) of a PERT activity in terms of optimistic time
+    $\brak{t_o}$, pessimistic time $\brak{t_p}$ and most likely time $\brak{t_l}$
+    is given by
+    \begin{multicols}{2}
+    \begin{enumerate}
+        \item $\frac{t_o + 4t_l + t_p}{6}$
+        \item $\frac{t_o + 4t_p + t_l}{6}$
+        \item $\frac{t_o + 4t_l + t_p}{3}$
+        \item $\frac{t_o + 4t_l + t_l}{3}$
+    \end{enumerate}
+    \end{multicols}
+
+    \item Which of the following is the correct data structure for solid models?
+    \begin{enumerate}
+        \item solid part $\rightarrow$ faces $\rightarrow$ edges $\rightarrow$ vertices
+        \item solid part $\rightarrow$ edges $\rightarrow$ faces $\rightarrow$ vertices
+        \item vertices $\rightarrow$ edges $\rightarrow$ faces $\rightarrow$ solid parts
+        \item vertices $\rightarrow$ faces $\rightarrow$ edges $\rightarrow$ solid parts
+    \end{enumerate}
+
+    \item Which of the following forecasting methods takes a fraction of forecast
+    error into account for the next period forecast?
+    \begin{multicols}{2}
+    \begin{enumerate}
+        \item simple average method
+        \item moving average method
+        \item weighted moving average method
+        \item exponential smoothing method
+    \end{enumerate}
+    \end{multicols}
+
+    \item An analytic function of a complex variable $z = x + iy$ is expressed as
+    $f(z) = u(x, y) + iv(x, y)$ where $i = \sqrt{-1}$. If $u = xy$, the expression
+    for $v$ should be
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item $\frac{\brak{x + y}^2}{2} + k$
+        \item $\frac{x^2 - y^2}{2} + k$
+        \item $\frac{y^2 - x^2}{2} + k$
+        \item $\frac{\brak{x - y}^2}{2} + k$
+    \end{enumerate}
+    \end{multicols}
+
+    \item The solution of $x\frac{dy}{dx} + y = x^4$ with the condition
+    $y(1) = \frac{6}{5}$ is
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item $y = \frac{x^4}{5} + 1$
+        \item $y = \frac{4x^4}{5} + \frac{4}{5x}$
+        \item $y = \frac{x^4}{5} + 1$
+        \item $y = \frac{x^5}{5} + 1$
+    \end{enumerate}
+    \end{multicols}
+
+    \item A path $AB$ in the form of one quarter of a circle of unit radius is shown
+    in the figure. Integration of $\brak{x + y}^2$ on path AB traversed in a
+    counter-clockwise sense is
+
+    \begin{center}
+    \begin{tikzpicture}
+        \draw (2,0) arc[start angle=0,end angle=90,radius=2];
+        \draw (0,0) -- (3,0) node[right] {$X$};
+        \draw (0,0) -- (0,3) node[above] {$Y$}; 
+        \node at (2,-0.3) {$A$};
+        \node at (-0.3,2) {$B$};
+    \end{tikzpicture}
+    \end{center}
+
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item $\frac{\pi}{2} - 1$
+        \item $\frac{\pi}{2} + 1$
+        \item $\frac{\pi}{2}$
+        \item 1
+    \end{enumerate}
+    \end{multicols}
+    
+    \item The distance between the origin and the point nearest to it on the surface
+    $z^2 = 1 + xy$ is
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item 1
+        \item $\frac{\sqrt{3}}{2}$
+        \item $\sqrt{3}$
+        \item 2
+    \end{enumerate}
+    \end{multicols}
+\end{enumerate}
+
+\end{document}
