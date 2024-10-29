@@ -1,0 +1,14 @@
+\begin{center}
+\begin{circuitikz}
+    \draw (2, 1) node[npn](a) {};
+    \draw (5, 2) node[npn](b) {};
+    \draw (2.5, 1) node {Tr1};
+    \draw (5.5, 2) node {Tr2};
+    \draw ($(a)-(0.18,0)$) circle [radius=12pt];
+    \draw ($(b)-(0.18,0)$) circle [radius=12pt];
+    \draw (b.collector) -- (5, 4) -- (0, 4) to[battery1,l_=+5V] (0, 0) -- (5, 0) -- (b.emitter);
+    \draw (a.base) -- (1, 1) -- (1, 2) -- (b.base);
+    \draw (a.emitter) -- (2, 0);
+    \draw (2, 4) to[R=100 $\Omega$] (a.collector);
+\end{circuitikz}
+\end{center}

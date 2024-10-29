@@ -1648,6 +1648,10 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxr.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/txfonts/txmi.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxmi.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/txfonts/rtxptmri.tfm
+INPUT ./figs/23.tex
+INPUT figs/23.tex
+INPUT ./figs/23.tex
+INPUT figs/23.tex
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out

@@ -1,12 +1,12 @@
 # Fdb version 4
-["makeindex main.idx"] 1729880777.92335 "main.idx" "main.ind" "main" 1729949353.76978 0
-  "main.idx" 1729949353.56634 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1729880777.92335 "main.idx" "main.ind" "main" 1730186085.70938 0
+  "main.idx" 1730186085.24955 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1729949352.942 "/home/shivrm/Public/Acad/EE1030/papers/GATE/2010/CE/14-26/main.tex" "main.pdf" "main" 1729949353.76987 0
-  "/home/shivrm/Public/Acad/EE1030/papers/GATE/2010/CE/14-26/main.tex" 1729949352.73734 8218 f6b0783ef87d0ddbe3bac37e03b78aa3 ""
+["pdflatex"] 1730186083.94265 "/home/shivrm/Public/Acad/EE1030/papers/GATE/2010/CE/14-26/main.tex" "main.pdf" "main" 1730186085.70963 0
+  "/home/shivrm/Public/Acad/EE1030/papers/GATE/2010/CE/14-26/main.tex" 1730186083.63755 7941 204ddb5e81aad69d6f40f19d869dea54 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1714953600 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -296,12 +296,13 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1714953600 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1724584339.0726 4547358 dea78b31c47846eb8f72ed74019fd353 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1724668446 7759795 0cc85453fb8747440ad9a4fb4e6caf8e ""
+  "figs/14.tex" 1730186073.9726 252 829c807e902a284df4ae62421c02a5be ""
   "gvv-book.sty" 1729878635.89487 2474 456b5fe5ada5fbb904bb2af12fb4c898 ""
   "gvv.sty" 1729878635.89487 4699 d2724b397f75ca1ff7f681d784439b5d ""
-  "main.aux" 1729949353.67734 574 21fdd8f8565777ca617df503f3c8864a "pdflatex"
+  "main.aux" 1730186085.50255 574 21fdd8f8565777ca617df503f3c8864a "pdflatex"
   "main.ind" 1729880778.07614 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.out" 1729949353.60034 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1729949352.73734 8218 f6b0783ef87d0ddbe3bac37e03b78aa3 ""
+  "main.out" 1730186085.32655 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1730186083.63755 7941 204ddb5e81aad69d6f40f19d869dea54 ""
   (generated)
   "main.aux"
   "main.idx"

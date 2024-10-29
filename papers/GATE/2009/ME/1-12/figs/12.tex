@@ -1,0 +1,25 @@
+\begin{center}    
+\begin{tikzpicture} 
+    \draw (0,2) circle (0.1) node[above left] {$O_1$};
+    \draw (0,0) circle (0.1) node[below right] {$O_2$};
+    \draw (-0.2,0.2) rectangle (0.2,-0.2);
+    \draw (-0.2,2.2) rectangle (0.2, 1.8);
+    
+    \foreach \i in {0,...,2} {
+        \draw (\i*0.4/3-0.1, -0.2) -- (\i*0.4/3-0.3, -0.4);
+        \draw (-0.2, 2+\i*0.4/3-0.1) -- (-0.4, 2+\i*0.4/3-0.3);
+    }
+
+    \draw[dashed] (0,0) -- (0,3); 
+    \draw[<->] (-0.5,0) -- (-0.5,2) node[midway, left] {$d$};
+    
+    \draw (-1, 2) -- (0, 2);
+    \draw (-1, 0) -- (0, 0);
+    
+    \draw[thick] (0,0) -- (3,3.75);
+    \draw[thick] (2,2.5) -- (3,3.75) node[right] {$Q$};
+    \filldraw[fill=white,rotate around={50:(2,2.5)}] (1.5,2.25) rectangle (2.5,2.75);
+    \draw (2,2.5) circle (0.1);
+    \draw[thick] (0,2) -- (2,2.5) node[right] {$P$};
+\end{tikzpicture}
+\end{center}

@@ -1,0 +1,13 @@
+\begin{center}
+\begin{circuitikz}[scale=1]
+    \draw (3.5, 2) node[op amp, yscale=-1](a) {};
+    \draw (0, 4) node[ground] {} (0, 4) to[R=1 $k\Omega$] (2, 4) to[R=4 $k\Omega$] (5, 4) -- (5, 2) to[short, -o] (6, 2);
+    \draw (2, 4) -- (2, 2.5) -- (a.+);
+    \draw (1.5, 1) node[ground] {} to[short, -o] (1.5, 1) node[left] {$V_{in}$};
+    \draw (1.5, 1.5) to[short, o-] (a.-);
+    \draw (6, 1) node[ground] {} to[short, -o] (6, 1) node[right] {$V_{out}$};
+    \draw (a.down) -- ++(0, 0.5) node[right] {+10 V};
+    \draw (a.up) -- ++(0, -0.5) node[right] {-10 V};
+    \draw (a.out) -- ++(0.5, 0);
+\end{circuitikz}
+\end{center}
