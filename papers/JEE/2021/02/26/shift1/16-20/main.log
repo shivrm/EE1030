@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.8.26)  31 OCT 2024 12:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.8.26)  31 OCT 2024 12:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/shivrm/Public/Acad/EE1030/papers/JEE/2024/01/31/shift1/1-15/main.tex
-(/home/shivrm/Public/Acad/EE1030/papers/JEE/2024/01/31/shift1/1-15/main.tex
+**/home/shivrm/Public/Acad/EE1030/papers/JEE/2021/02/26/shift1/16-20/main.tex
+(/home/shivrm/Public/Acad/EE1030/papers/JEE/2021/02/26/shift1/16-20/main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -1284,55 +1284,45 @@ Package hyperref Info: Link coloring OFF on input line 21.
 \openout5 = `main.out'.
 
 \c@lstlisting=\count390
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 38.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 35.
  (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 38.
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 35.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsya on input line 38.
+LaTeX Font Info:    Trying to load font information for U+txsya on input line 35.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyb on input line 38.
+LaTeX Font Info:    Trying to load font information for U+txsyb on input line 35.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for U+txsyc on input line 38.
+LaTeX Font Info:    Trying to load font information for U+txsyc on input line 35.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
-)
-Underfull \hbox (badness 10000) in paragraph at lines 60--66
-[]\OT1/txr/m/n/10 Let $\OML/txmi/m/it/10 a$ \OT1/txr/m/n/10 be the sum of all co-ef-fi-cients in the ex-pan-sion of
- []
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-Underfull \hbox (badness 1389) in paragraph at lines 60--66
-[][] [][]$ \OT1/txr/m/n/10 and $\OML/txmi/m/it/10 b \OT1/txr/m/n/10 = [] []$. If the equa-tions
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-] [2] [3] (./main.aux)
+] [2] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 52221 strings out of 476034
- 1236515 string characters out of 5792854
- 1882388 words of memory out of 6000000
- 71812 multiletter control sequences out of 15000+600000
+ 52225 strings out of 476034
+ 1237537 string characters out of 5792854
+ 1875388 words of memory out of 6000000
+ 71867 multiletter control sequences out of 15000+600000
  577895 words of font info for 164 fonts, out of 8000000 for 9000
  1140 hyphenation exceptions out of 8191
- 109i,14n,107p,1260b,1036s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 59236 bytes).
+ 109i,8n,107p,1261b,1035s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 42692 bytes).
 PDF statistics:
- 182 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 79 named destinations out of 1000 (max. 500000)
+ 105 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 28 named destinations out of 1000 (max. 500000)
  109 words of extra memory for PDF output out of 10000 (max. 10000000)
 

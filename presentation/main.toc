@@ -1,0 +1,9 @@
+\beamer@sectionintoc {2}{Problem}{3}{0}{1}
+\beamer@sectionintoc {3}{Solution}{5}{0}{2}
+\beamer@subsectionintoc {3}{1}{Linear Equations}{5}{0}{2}
+\beamer@subsectionintoc {3}{2}{Row Reduction}{6}{0}{2}
+\beamer@subsectionintoc {3}{3}{Solving for A}{7}{0}{2}
+\beamer@sectionintoc {4}{Plotting}{8}{0}{3}
+\beamer@subsectionintoc {4}{1}{C Code}{8}{0}{3}
+\beamer@subsectionintoc {4}{2}{Python Code}{11}{0}{3}
+\beamer@subsectionintoc {4}{3}{Plot}{14}{0}{3}
