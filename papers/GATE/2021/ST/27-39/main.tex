@@ -1,0 +1,174 @@
+%iffalse
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+
+%\usepackage[a5paper, top=10mm, bottom=10mm, left=10mm, right=10mm]{geometry}
+
+%
+\usepackage{gvv-book}
+\usepackage{gvv}
+\setlength{\intextsep}{10pt} % Space between text and floats
+
+\makeindex
+
+\begin{document}
+\bibliographystyle{IEEEtran}
+\onecolumn
+%endif
+
+\title{2021 ST 27-39}
+\author{AI24BTECH11031 - Shivram S}
+\maketitle
+\bigskip
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+
+\begin{enumerate}
+    \item If the marginal probability density function of the $k^{th}$ order statistic of a random sample of size 8 from a
+    uniform distribution on $\sbrak{0,2}$ is
+    \begin{align*}    
+    f\brak{x} = 
+    \begin{cases} 
+    \frac{7}{32}x^6\brak{2 - x}, & 0 < x < 2, \\
+    0, & \text{otherwise}, 
+    \end{cases}
+    \end{align*}
+    then $k$ equals \rule{1.0cm}{0.15mm}.
+
+    \item For $\alpha > 0$, let $\cbrak{X_n^{\brak{\alpha}}}_{n\ge1}$ be a sequence of independent random
+    variables such that 
+    \begin{align*}
+    P\brak{X_n^{\brak{\alpha}} = 1} = \frac{1}{n^{2\alpha}} = 1 - P\brak{X_n^{\brak{\alpha}} = 0}.
+    \end{align*}
+    Let $S = \cbrak{\alpha > 0 : X_n^{\brak{\alpha}} \text{ converges to } 0 \text{ almost surely as } n \to \infty}$.
+    Then the infimum of $S$ equals \rule{1.0cm}{0.15mm} (round off to 2 decimal places).
+
+    \item Let $\cbrak{X_n}_{n \ge 1}$ be a sequence of independent and identically distributed random variables each
+    having uniform distribution on $\sbrak{0, 2}$. For $n \ge 1$, let
+    \begin{align*}
+        Z_n = -\log_e \brak{\prod_{i=1}^n \brak{2 - X_i}}^{\frac{1}{n}}
+    \end{align*}
+    Then, as $n \to \infty$, the sequence $\cbrak{Z_n}_{n \ge 1}$ converges almost surely to
+    \rule{1.0cm}{0.15mm} (round off to two decimal places).
+    
+    \item Let $\cbrak{X_n}_{n \ge 0}$ be a time-homogeneous discrete time Markov chain with state space 
+    $\cbrak{0, 1}$ and transition probability matrix
+    \begin{align*}
+        \myvec{
+            0.25 & 0.75 \\
+            0.75 & 0.25
+        }
+    \end{align*}
+    If $P\brak{X_0 = 0} = P\brak{X_0 = 1} = 0.5$ then
+    \begin{align*}
+        \sum_{k=1}^{100} E\sbrak{\brak{X_{2k}}^{2k}}
+    \end{align*}
+    equals \rule{1.0cm}{0.15mm}.
+
+    \item Let $\cbrak{0, 2}$ be a realization of a random sample of size 2 from a binomial distribution
+    with parameters 2 and $p$, where $p \in \brak{0, 1}$. To test $H_0: p = \frac{1}{2}$ against
+    $H_1: p \ne \frac{1}{2}$, the observed value of the likelihood ratio test statistic equals
+    \rule{1.0cm}{0.15mm} (round off to 2 decimal places).
+
+    \item Let $X$ be a random variable having the probability density function
+    \begin{align*}
+        f\brak{x} = 
+        \begin{cases}
+            \frac{3}{13}\brak{1-x}\brak{9-x} & 0 < x < 1 \\
+            0 & \text{otherwise}
+        \end{cases}
+    \end{align*}
+    Then $\frac{4}{3}E\sbrak{X\brak{X^2 - 15X + 27}}$ equals \rule{1.0cm}{0.15mm}
+    (round off to two decimal places).
+
+    \item Let $\brak{Y, X_1, X_2}$ be a random vector with mean vector $\myvec{5 \\ 2 \\ 0}$ and
+    variance-covariance matrix $\myvec{10 & 0.5 & -0.5 \\ 0.5 & 7 & 1.5 \\ -0.5 & 1.5 & 2}$.
+    Then the value of the multiple correlation coefficient between $Y$ and its best linear predictor on $X_1$
+    and $X_2$ equals \rule{1.0cm}{0.15mm} (round off to two decimal places).
+
+    \item Let $\underline{X_1}$, $\underline{X_2}$ and $\underline{X_3}$ be a random sample from a bivariate
+    normal distribution with unknown mean vector $\underline{\mu}$ and unknown variance-covariance matrix
+    $\Sigma$, which is a positive definite matrix. The $p$-value corresponding to the likelihood ratio for testing
+    $H_0: \underline{\mu} = \underline{0}$ against $H_1: \underline{\mu} \ne \underline{0}$ based on the realization
+    $\cbrak{\myvec{1 \\ 2}, \myvec{4 \\ -2}, \myvec{-5 \\ 0}}$ of the random sample equals \rule{1.0cm}{0.15mm}
+    (round off to two decimal places).
+
+    \item Let $Y_i = \alpha + \beta x_i + \epsilon_i, i=1,2,3$ where $x_i$'s are fixed covariates,
+    $\alpha$ and $\beta$ are unknown parameters, and $\epsilon_i$'s are independent and identically
+    distributed random variables with mean zero and finite variance. Let $\hat \alpha$ and
+    $\hat \beta$ be the ordinary least squares estimators of $\alpha$ and $\beta$ respectively. Given
+    the following observations
+    
+    \input{tables/35}
+
+    the value of $\hat\alpha + \hat\beta$ equals \rule{1.0cm}{0.15mm}
+   (round off to two decimal places).
+
+    \item Let $f: \mathbb{R} \to \mathbb{R}$ be defined by
+    \begin{align*}
+        f\brak{x} = 
+        \begin{cases}
+            x^3\sin x & \text{$x = 0$ or $x$ is irrational} \\
+            \frac{1}{q^3} & x = \frac{p}{q}, p \in \mathbb{Z} \setminus \cbrak{0}, q \in \mathbb{N} \text{ and} \gcd\brak{p, q} = 1
+        \end{cases}
+    \end{align*}
+    where $\mathbb{R}$ denotes the set of all real numbers, $\mathbb{Z}$ denotes the set of all integers, $\mathbb{N}$ denotes the
+    set of all positive integers and $\gcd\brak{p, q}$ denotes the greatest common divisor of $p$ and $q$. Then which one of the
+    following statements is true?
+
+    \begin{enumerate}
+        \item $f$ is not continuous at 0
+        \item $f$ is not differentiable at 0
+        \item $f$ is differentiable at 0 and the derivative of $f$ at 0 equals 0
+        \item $f$ is differentiable at 0 and the derivative of $f$ at 0 equals 1
+    \end{enumerate}
+
+    \item Let $f \lsbrak{0, }\rbrak{\infty} \to \mathbb{R}$ be a function, where $\mathbb{R}$ denotes the set of all real numbers.
+    Then which of the following statements is true?
+
+    \begin{enumerate}
+        \item If $f$ is bounded and continuous, then $f$ is uniformly continuous
+        \item If $f$ is uniformly continuous, then $\lim\limits_{x \to \infty} f\brak{x}$ exists.
+        \item If $f$ is uniformly continuous, then the function $g\brak{x} = f\brak{x}\sin x$
+        is also uniformly continuous
+        \item If $f$ is continuous and $\lim\limits_{x \to \infty} f\brak{x}$ is finite, then
+        $f$ is uniformly continuous.
+    \end{enumerate}
+
+    \item Let $f: \mathbb{R} \to \mathbb{R}$ be a differentiable function such that $f\brak{0} = 0$ and
+    $f^\prime\brak{x} + 2f\brak{x} > 0$ for all $x \in \mathbb{R}$ where $f^\prime$ denotes the derivative
+    of $f$ and $\mathbb{R}$ denotes the set of all real numbers. Then which one of the following statements
+    is true?
+
+    \begin{enumerate}
+        \item $f\brak{x} > 0$ for all $x > 0$ and $f\brak{x} < 0$ for all $x < 0$
+        \item $f\brak{x} < 0$ for all $x \ne 0$
+        \item $f\brak{x} > 0$ for all $x \ne 0$
+        \item $f\brak{x} < 0$ for all $x > 0$ and $f\brak{x} > 0$ for all $x < 0$
+    \end{enumerate}
+
+    \item Let $M$ be the collection of all $3 \times 3$ real symmetric positive definite matrices.
+    Consider the set
+
+    \begin{align*}
+        S = \cbrak{\vec{A} \in M : \vec{A}^{50} - \frac{1}{4}\vec{A}^{48} = \vec{0}}
+    \end{align*}
+    where $\vec{0}$ denotes the $3 \times 3$ zero matrix. Then the number of elements in $S$ equals
+    
+    \begin{multicols}{4}
+    \begin{enumerate}
+        \item 0
+        \item 1
+        \item 8
+        \item $\infty$
+    \end{enumerate}
+    \end{multicols}
+\end{enumerate}
+\end{document}
