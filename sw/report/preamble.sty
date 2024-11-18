@@ -1,0 +1,96 @@
+\NeedsTeXFormat{LaTeX2e}
+\usepackage{amsmath}
+\usepackage{mathtools} 
+\usepackage{algorithm2e}
+\usepackage[hidelinks]{hyperref}
+
+\usepackage{graphicx}
+\graphicspath{ {./figs/} }
+
+\usepackage{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+
+\usepackage[a4paper, margin=10mm]{geometry}
+\let\endtitlepage\relax
+
+% Fonts
+\renewcommand{\rmdefault}{ptm}
+\renewcommand{\sfdefault}{phv}
+
+\setlength{\parindent}{\z@}
+\setlength{\parskip}{5.5\p@}
+
+% Sections with less space
+\providecommand{\section}{}
+\renewcommand{\section}{%
+  \@startsection{section}{1}{\z@}%
+                {-2.0ex \@plus -0.5ex \@minus -0.2ex}%
+                { 1.5ex \@plus  0.3ex \@minus  0.2ex}%
+                {\large\bf\raggedright}%
+}
+\providecommand{\subsection}{}
+\renewcommand{\subsection}{%
+  \@startsection{subsection}{2}{\z@}%
+                {-1.8ex \@plus -0.5ex \@minus -0.2ex}%
+                { 0.8ex \@plus  0.2ex}%
+                {\normalsize\bf\raggedright}%
+}
+\providecommand{\subsubsection}{}
+\renewcommand{\subsubsection}{%
+  \@startsection{subsubsection}{3}{\z@}%
+                {-1.5ex \@plus -0.5ex \@minus -0.2ex}%
+                { 0.5ex \@plus  0.2ex}%
+                {\normalsize\bf\raggedright}%
+}
+\providecommand{\paragraph}{}
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}{\z@}%
+                {1.5ex \@plus 0.5ex \@minus 0.2ex}%
+                {-1em}%
+                {\normalsize\bf}%
+}
+\providecommand{\subparagraph}{}
+\renewcommand{\subparagraph}{%
+  \@startsection{subparagraph}{5}{\z@}%
+                {1.5ex \@plus 0.5ex \@minus 0.2ex}%
+                {-1em}%
+                {\normalsize\bf}%
+}
+\providecommand{\subsubsubsection}{}
+\renewcommand{\subsubsubsection}{%
+  \vskip5pt{\noindent\normalsize\rm\raggedright}%
+}
+
+% Smart surrounds
+\providecommand{\sbrak}[1]{\ensuremath{{}\left[#1\right]}}
+\providecommand{\brak}[1]{\ensuremath{\left(#1\right)}}
+\providecommand{\cbrak}[1]{\ensuremath{\left\{#1\right\}}}
+\providecommand{\abs}[1]{\left\vert#1\right\vert}
+\providecommand{\norm}[1]{\left\lVert#1\right\rVert}
+
+% Use boldface for vectors
+\let\vec\mathbf
+
+\providecommand{\Oh}{\mathcal{O}}
+
+\DeclareMathOperator{\cosec}{cosec}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\proj}{proj}
+\DeclareMathOperator{\tr}{tr}
+
+% Augmented matrix environment
+\newenvironment{amatrix}[2]{%
+  \left(\begin{array}{@{}*{#1}{c}|*{#2}{c}@{}}
+}{%
+  \end{array}\right)
+}
+
+% Matrices, augmented matrices, and determinants
+\newcommand{\mat}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\aug}[3]{\ensuremath{\begin{amatrix}{#1}{#2}#3\end{amatrix}}}
+\renewcommand{\det}[1]{\ensuremath{\begin{vmatrix}#1\end{vmatrix}}}
+
+\newcommand{\todo}{{\huge TODO\ }}
