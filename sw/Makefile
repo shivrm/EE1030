@@ -4,7 +4,7 @@ CFLAGS=-Wall -fopenmp -Ofast -mavx2 -lm
 all: clean gram_schmidt householder generate
 
 clean:
-	rm -r bin
+	rm -fr bin	# Remove for real
 	mkdir bin
 
 gram_schmidt: src/common.c src/gram_schmidt.c
