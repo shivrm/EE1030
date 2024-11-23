@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1732378542.30491 "/home/shivrm/Public/Acad/EE1030/misc2/main.tex" "main.pdf" "main" 1732378544.10389 0
-  "/home/shivrm/Public/Acad/EE1030/misc2/main.tex" 1732378542.03952 4203 8a4f8da0009d830854b99bc47e469b63 ""
+["pdflatex"] 1732383290.60952 "/home/shivrm/Public/Acad/EE1030/misc2/main.tex" "main.pdf" "main" 1732383292.51547 0
+  "/home/shivrm/Public/Acad/EE1030/misc2/main.tex" 1732383288.52909 4392 0f2e3a2dd8fbcb09f222416bad49fc05 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1714953600 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -309,12 +309,13 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1714953600 40900 887e0dc8cac988a9e9c574af364cf837 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1724584339.0726 4547358 dea78b31c47846eb8f72ed74019fd353 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1724668446 7759795 0cc85453fb8747440ad9a4fb4e6caf8e ""
-  "figs/fig.pdf" 1732378367.51639 8430 09437252bde8c0f6b4a2f95c16959345 ""
+  "figs/parabola.pdf" 1732383236.41711 13269 f2e58ad89c837a77b5cce5e59631a0a7 ""
+  "figs/triangle.pdf" 1732378367.51639 8430 09437252bde8c0f6b4a2f95c16959345 ""
   "gvv-book.sty" 1732298809.98152 2473 656067362ea7c8b96cb2f1369aee95c2 ""
   "gvv.sty" 1732298809.98152 4373 1d2de35746c6e6695657cb4c060a218f ""
-  "main.aux" 1732378543.87352 903 59240e185636225d82546bacbcb8e3f1 "pdflatex"
-  "main.out" 1732378543.72752 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1732378542.03952 4203 8a4f8da0009d830854b99bc47e469b63 ""
+  "main.aux" 1732383292.28509 1090 d1154416aaa6622070beba30fdad1e58 "pdflatex"
+  "main.out" 1732383292.12309 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1732383288.52909 4392 0f2e3a2dd8fbcb09f222416bad49fc05 ""
   "tables/table.tex" 1732299862.00938 287 062f1a9a72fdb3f94dcaa93f5155f0bb ""
   (generated)
   "main.aux"

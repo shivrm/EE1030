@@ -41,4 +41,4 @@ for i in range(len(verts)):
 plt.legend()
 plt.axis('equal')
 plt.grid()
-plt.savefig('../figs/fig.pdf')
+plt.savefig('../figs/triangle.pdf')
